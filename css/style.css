@@ -80,6 +80,7 @@ body {
   padding-bottom: 18px;
   border: 0;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .tittle {
