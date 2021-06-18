@@ -17,10 +17,9 @@ body {
   left: 0;
   right: 0;
   background-color: #fffbf7;
-  margin-left: 20px;
-  margin-right: 20px;
   font-size: 0px;
   padding: 10px 0px 10px 0px;
+  z-index: 1030;
 }
 
 .header > * {
@@ -258,7 +257,7 @@ h2 {
 }
 
 .stories .overview button {
-  width: 18%;
+  width: 32%;
   background-color: #025157;
   color: #fff;
   font-size: 14px;
@@ -279,6 +278,8 @@ h2 {
 }
 
 .stories .stories-carrusel {
+  flex: 1;
+  position: relative;
   max-width: 350px;
   height: 660px;
   background-color: #fff;
