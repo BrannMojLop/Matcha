@@ -225,6 +225,76 @@ h2 {
   color: #8b8b8bcc;
 }
 
+/* Estilos Carateristicas */
+.section-features {
+  display: grid;
+  height: 660px;
+  /* grid-template-columns: 1fr 1fr; */
+  /* grid-template-rows: 1fr 1fr; */
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  background-color: #025157;
+  padding: 5% 10%;
+}
+
+.section-features .feature-card {
+  margin: 30px 15px 0px 15px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.section-features .feature-card .contend-feature {
+  width: 60%;
+  padding: 30px 20px 40px 40px;
+}
+
+.section-features .feature-card .contend-feature img {
+  width: 50px;
+  margin-bottom: 3%;
+}
+
+.section-features .feature-card .contend-feature h3 {
+  font-size: 24px;
+  color: #343434;
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
+.section-features .feature-card .contend-feature a {
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+
+.section-features .feature-card .contend-feature p {
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 400;
+  margin-bottom: 3%;
+}
+
+.section-features .feature-card .img-feature {
+  width: 40%;
+  position: relative;
+  right: -50px;
+  height: 80%;
+}
+
+.section-features .feature-card .img-feature .box-img-feature {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.section-features .feature-card .img-feature img {
+  height: 100%;
+}
+
 /* Estilos Stories */
 
 .stories {
