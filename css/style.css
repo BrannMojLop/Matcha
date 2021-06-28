@@ -655,6 +655,7 @@ h2 {
   .how-does-matcha .how-does-matcha-card {
     display: flex;
     flex-direction: row-reverse;
+    margin-top: 15px;
   }
 
   .how-does-matcha .card-content h3 {
