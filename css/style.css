@@ -127,7 +127,7 @@ h2 {
 }
 
 .form > button {
-  width: 135px;
+  width: 110px;
   height: 54px;
   background-color: #025157;
   color: #fff;
@@ -163,7 +163,6 @@ h2 {
 
 .capterra-banner > img {
   width: 500px;
-  height: 52px;
 }
 
 .intro-group {
@@ -181,7 +180,7 @@ h2 {
 /* Estilos Banner Video-Publicidad */
 #video-publishing {
   display: flex;
-  max-width: 70%;
+  max-width: 95%;
   margin: 100px auto;
   align-items: center;
   justify-content: space-between;
@@ -192,6 +191,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 #video-publishing #video img {
@@ -442,3 +442,109 @@ h2 {
   color: white;
   cursor: pointer;
 }
+
+/* Session 5 -- Reto 1 y Reto 2*/
+/* Media Querys */
+/** dispositivos móviles en vista viewport (vertical) */
+@media (max-width: 575px) {
+  .header .nav {
+    display: none;
+  }
+
+  .header .login-nav {
+    display: none;
+  }
+
+  main {
+    margin-top: 130px;
+  }
+
+  .tittle {
+    font-size: 30px;
+  }
+
+  .capterra-banner > img {
+    width: 100%;
+  }
+
+  /* Session 5 -- Reto 3 */
+  #video-publishing {
+    flex-direction: column;
+  }
+
+  #video-publishing #video video {
+    width: 100%;
+  }
+
+  #video-publishing h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  /* Session 5 -- Reto 4 */
+  .section-features {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 0%;
+  }
+
+  .section-features .feature-card {
+    margin: 15px 10px 15px 10px;
+  }
+
+  .section-features .feature-card:last-child {
+    margin-bottom: 15%;
+  }
+
+  .section-features .feature-card .contend-feature {
+    width: 100%;
+  }
+
+  .section-features .feature-card .img-feature {
+    display: none;
+  }
+
+  .stories {
+    flex-direction: column;
+    padding: 3%;
+  }
+
+  .stories .overview {
+    padding: 0%;
+  }
+
+  .stories .overview h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .stories .overview button {
+    width: 45%;
+  }
+
+  .stories .stories-carrusel {
+    margin: 3%;
+  }
+}
+
+/*
+
+dispositivos pequeños en vista landscape (horizontal)
+@media (min-width: 576px and max-width: 767px) {
+}
+  
+* dispositivos medianos (tablets)
+@media (min-width: 768px and max-width: 991px) {
+  ...;
+}
+
+dispositivos grandes (desktops)
+@media (min-width: 992px and max-width: 1199px) {
+  ...;
+}
+
+dispositivos extra grandes (monitores grandes, tvs) 
+@media (min-width: 1200px) {
+
+}
+*/
