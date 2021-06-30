@@ -1,0 +1,112 @@
+/** pricing.css */
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900|Open+Sans|Slabo+27px&display=swap");
+
+/* Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fffbf7;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Estilos Encabezado */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fffbf7;
+  font-size: 0px;
+  padding: 10px 10px 10px 10px;
+  z-index: 1030;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.header li {
+  display: inline;
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+/* Estilos Barra de Navegacion*/
+.logo {
+  width: 15%;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.navbar-nav {
+  width: 70%;
+  text-align: left;
+  color: #025157;
+  font-weight: 500;
+  margin-left: 18%;
+}
+
+.login-nav {
+  width: 20%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.login-nav > * {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.login-nav a {
+  color: #67b54b;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.login-nav button {
+  color: white;
+  background-color: #67b54b;
+  padding: 18px 14px;
+  margin: 0 10px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* Estilos Pricing */
+main {
+  margin-top: 285px;
+}
+
+/* Resposive */
+@media (max-width: 575px) {
+  .header {
+    box-shadow: 1px 0px 0px gray;
+  }
+
+  .header .navbar-nav {
+    margin-left: 0px;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .header .login-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
