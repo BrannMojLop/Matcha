@@ -1,0 +1,22 @@
+{
+  "name": "matcha",
+  "version": "1.0.0",
+  "description": "proyecto de Bedu Fase 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrannMojLop/Matcha.git"
+  },
+  "author": "Brandon Mojica",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrannMojLop/Matcha/issues"
+  },
+  "homepage": "https://github.com/BrannMojLop/Matcha#readme",
+  "dependencies": {
+    "sass": "^1.35.1"
+  }
+}
