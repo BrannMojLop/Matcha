@@ -51,6 +51,9 @@
   background-color: #025157;
   color: #ffffff;
 }
+.blog .card {
+  margin-bottom: 5%;
+}
 .blog .category {
   color: #67b54b;
 }
